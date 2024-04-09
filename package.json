@@ -6,6 +6,8 @@
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ blocklytics/ethereum-blocks",
     "create-local": "graph create --node http://localhost:8020/ blocklytics/ethereum-blocks",
+    "create-test":"graph create vikkkko/test/rss3-blocks --node https://thegraph.testnet.rss3.io/deploy ",
+    "deploy-test":"graph deploy vikkkko/test/rss3-blocks --ipfs http://35.188.142.29:5001 --node https://thegraph.testnet.rss3.io/deploy",
     "create-rss3":"graph create vikkkko/testnetv1/rss3-blocks --node https://thegraph.testnet.rss3.io/deploy ",
     "deploy-rss3":"graph deploy vikkkko/testnetv1/rss3-blocks --ipfs http://35.188.142.29:5001 --node https://thegraph.testnet.rss3.io/deploy",
     "remove-local": "graph remove --node http://localhost:8020/ blocklytics/ethereum-blocks",
